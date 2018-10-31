@@ -8,7 +8,7 @@ version = "1.0.0"
 
 # noinspection PyClassHasNoInit,PyShadowingNames
 class AvalonYoutubeTvAgent(Agent.TV_Shows):
-    name = "Avalon Rest TV Agent"
+    name = "Avalon Youtube TV Agent"
     ver = version
     primary_provider = True
     languages = [Locale.Language.NoLanguage]
