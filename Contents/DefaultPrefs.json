@@ -1,0 +1,16 @@
+[
+  {
+    "id": "LogLevel",
+    "label": "Log level (Default: Info)",
+    "type": "enum",
+    "values": [
+      "Debug",
+      "Info",
+      "Warn",
+      "Error",
+      "Critical",
+      "Exception"
+    ],
+    "default": "Info"
+  }
+]
