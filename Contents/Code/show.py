@@ -64,7 +64,7 @@ def set_show(metadata, channel):
     metadata.summary = channel.get("description")
     metadata.rating = channel.get("rating")
     set_metadata_list(metadata, "genres", channel.get("keywords").split())
-    set_metadata_list(metadata, "collections", channel.get("collections"))
+    set_metadata_list(metadata, "collections", channel.get("collections", []))
     set_metadata_actors(metadata, channel.get("actors", []))
 
 
