@@ -10,10 +10,7 @@ EPISODE_REGEX = "^(.*\S)\s+-\s+s\d{2,}e\d{2,}.*$"
 
 
 def get_show_json(media):
-    if hasattr(media, "filename"):
-        path = unquote(media.filename).decode("utf8")
-    else:
-        path = get_show_file(media)
+    path = get_show_file(media)
     season_dir = dirname(path)
     show_dir = dirname(season_dir)
     file_path = join(show_dir, "show.json")

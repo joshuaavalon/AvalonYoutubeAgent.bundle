@@ -3,7 +3,7 @@ from show import get_episode_json, get_show_json, set_episode, \
     set_episode_cover, set_show
 from utils import convert_date, create_id
 
-version = "1.0.0"
+version = "1.0.1"
 
 
 # noinspection PyClassHasNoInit,PyShadowingNames
