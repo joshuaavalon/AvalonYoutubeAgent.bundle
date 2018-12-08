@@ -1,0 +1,21 @@
+site_name: AvalonYoutubeAgent.bundle
+theme:
+  name: material
+  logo:
+    icon: "play_circle_outline"
+  palette:
+    primary: red
+    accent: red
+  favicon: "favicon.png"
+
+repo_name: joshuaavalon/AvalonYoutubeAgent.bundle
+repo_url: https://github.com/joshuaavalon/AvalonYoutubeAgent.bundle
+
+extra:
+  social:
+    - type: github-alt
+      link: https://github.com/joshuaavalon/AvalonYoutubeAgent.bundle
+nav:
+  - index.md
+  - configuration.md
+  - example.md

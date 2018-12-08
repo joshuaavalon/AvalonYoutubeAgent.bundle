@@ -1,0 +1,15 @@
+language: python
+python: 3.6.7
+install:
+  - travis_retry pip install -U mkdocs mkdocs-material
+script:
+  - mkdocs build --clean --strict
+deploy:
+  provider: pages
+  skip-cleanup: true
+  keep-history: true
+  github-token: $GITHUB_TOKEN
+  local-dir: site
+branches:
+  only:
+  - master

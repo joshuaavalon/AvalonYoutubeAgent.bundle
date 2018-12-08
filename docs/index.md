@@ -1,10 +1,8 @@
-# AvalonYoutubeAgent.bundle
+# Getting Started
 
 [![license][badge]][license]
 
 **AvalonYoutubeAgent.bundle** is a metadata agent for Plex.
-
-Please read [full documentation][documentation] for reference.
 
 ## Requirements
 
@@ -61,4 +59,3 @@ However, if Youtube is down or video is deleted, the metadata is no longer acces
 [badge]: https://img.shields.io/github/license/joshuaavalon/AvalonYoutubeAgent.bundle.svg
 [youtube-dl]: https://github.com/rg3/youtube-dl
 [agent]: https://github.com/ZeroQI/YouTube-Agent.bundle
-[documentation]: https://joshuaavalon.github.io/AvalonYoutubeAgent.bundle
