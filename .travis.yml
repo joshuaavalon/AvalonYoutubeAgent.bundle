@@ -10,6 +10,5 @@ deploy:
   keep-history: true
   github-token: $GITHUB_TOKEN
   local-dir: site
-branches:
-  only:
-  - master
+  on:
+    branch: master
