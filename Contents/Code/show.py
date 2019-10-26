@@ -80,7 +80,8 @@ def set_episode(metadata, episode):
     metadata.content_rating = episode.get("content_rating")
     metadata.originally_available_at = convert_date(episode.get("upload_date"))
     metadata.summary = episode.get("description")
-    metadata.rating = episode.get("average_rating") * 2
+    average_rating = episode.get("average_rating")
+    metadata.rating = average_rating * 2 if average_rating is not None else None
     set_metadata_list(metadata, "writers", episode.get("writers", []))
     set_metadata_list(metadata, "directors", episode.get("directors", []))
 
